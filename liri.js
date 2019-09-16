@@ -6,20 +6,24 @@ let fs = require("fs");
 let Spotify = require("node-spotify-api");
 let spotify = new Spotify(keys.spotify);
 
-
 function lookUp() {
     let command = process.argv[2];
     let thingToLookUp = process.argv[3];
     let results;
 
-    if (command === "concert-this") {
-        concertThis(thingToLookUp);
-    } else if (command === "spotify-this-song") {
-        spotifyThis(thingToLookUp);
-    } else if (command === "movie-this") {
-        movieThis(thingToLookUp);
-    } else if (command === "do-what-it-says") {
-        doWhatItSays();
+    switch (command) {
+        case "concert-this":
+            concertThis(thingToLookUp);
+            break;
+        case "spotify-this-song":
+            spotifyThis(thingToLookUp);
+            break;
+        case "movie-this":
+            movieThis(thingToLookUp);
+            break;
+        case "do-what-it-says":
+            doWhatItSays();
+            break;
     }
 }
 
