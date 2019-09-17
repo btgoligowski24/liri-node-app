@@ -14,11 +14,11 @@ The app is organized by functions. There is one function that is run and based o
   1. You should already have the `package.json` file; if you don't, run `npm init -y`. 
   2. Now, make sure to run `npm install` which will install the proper dependencies in this folder.
   3. random.txt exists with contents in the following format {command},{thingToLookUp} (the app will only results the first pair like this, extras will not run)
-4. Run the node program by entering one of the follow commands, replacing the text in curly braces (*{text}*) with something matching the text's description. If there are spaces in your description, encapsulate it with quotes (*"this is my selection"*). Things in square brackets([]) are optional, there are defaults that are run if you don't input anything:
-  * `node liri.js concert-this {artist}`
-  * `node liri.js spotify-this-song [{song}]`
-  * `node liri.js movie-this [{movie}]`
-  * `node liri.js do-what-it-says`
+4. Run the node program by entering one of the follow commands, replacing the text in curly braces (*{text}*) with something matching the text's description. If there are spaces in your description, encapsulate it with quotes (*"this is my selection"*). Things in square brackets([ ]) are optional, there are defaults that are run if you don't input anything:
+    * `node liri.js concert-this {artist}`
+    * `node liri.js spotify-this-song [{song}]`
+    * `node liri.js movie-this [{movie}]`
+    * `node liri.js do-what-it-says`
 5. Voila, you've used the app. It should print the reponse to the console (command prompt) and will also create a log file if one doesn't exist or will append to it if it does.
 
 * [Video Demonstration of the App](https://youtu.be/pMihNROo6qE)
