@@ -142,7 +142,7 @@ function doWhatItSays() {
 }
 
 function logAction(command, thingToLookUp, results) {
-    fs.appendFile("log.txt", command + ": " + thingToLookUp + "\n" + results + "\n\n\n", "utf8", (err) => {
+    fs.appendFile("log.txt", command + ": " + thingToLookUp + "\n" + results + "\n\n", "utf8", (err) => {
         if (err)
             throw console.log("The 'data to append' was not appended to the file!\n" + err);
     })
