@@ -19,7 +19,7 @@ The app is organized by functions. There is one function that is run and based o
     * `node liri.js spotify-this-song [{song}]`
     * `node liri.js movie-this [{movie}]`
     * `node liri.js do-what-it-says`
-5. Voila, you've used the app. It should print the reponse to the console (command prompt) and will also create a log file if one doesn't exist or will append to it if it does.
+5. Voila, you've used the app. It should print the response to the console (command prompt) and will also create a log file if one doesn't exist or will append to it if it does.
 
 * [Video Demonstration of the App](https://youtu.be/pMihNROo6qE)
 
