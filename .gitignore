@@ -2,3 +2,4 @@ node_modules
 .DS_Store
 .env
 demoVideo.mp4
+log.txt
